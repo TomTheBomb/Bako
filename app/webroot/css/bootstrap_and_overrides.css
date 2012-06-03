@@ -1,0 +1,193 @@
+body {
+  position: relative;
+  padding-top: 60px;
+  background-color: #ffefc0;
+  background-image: url('../img/paper-background.jpg');
+}
+section {
+  padding: 20px;
+	margin-bottom: 20px;
+	background: #fff;
+	-moz-box-shadow: 0 1px 5px rgba(76,50,10,.6);
+	-webkit-box-shadow: 0 1px 5px rgba(76,50,10,.6);
+	box-shadow: 0 1px 5px rgba(76,50,10,.6);
+}
+section .alert {
+	width: 600px;
+	margin: 0 auto 10px auto;
+}
+section h1 {
+	text-align:center;
+	margin-bottom:20px;
+}
+.required label::after {
+	content: "*";
+}
+.requiredFields {
+	text-align: center;
+	margin: 10px 0 0 0;
+	color: #999;
+}
+button.btn, input[type="submit"].btn {
+	width: 100%;
+}
+.footer {
+	margin-top:50px;
+}
+.rounded {
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.t-center {
+	text-align:center;
+}
+.navbar-inner {
+	background:#fff;
+	-moz-box-shadow: 0 1px 5px rgba(76,50,10,.6);
+	-webkit-box-shadow: 0 1px 5px rgba(76,50,10,.6);
+	box-shadow: 0 1px 5px rgba(76,50,10,.6);
+}
+#suburbName {
+	text-align:center;
+	padding:5px;
+	margin:0;
+}
+#suburbName h1 {
+	margin:0;
+}
+#map_canvas {
+	margin: 0;
+	padding: 0;
+	height: 250px;
+	background:#eee;
+}
+#suburbMap {
+	padding:0 20px;
+	position:relative;
+	z-index: -1;
+}
+.profileImageWrap {
+	width:200px;
+	height:auto;
+	overflow:hidden;
+}
+.suburbSidebar {
+	width: 200px !important;
+	margin: 0 20px 20px 0 !important;
+}
+.suburbSidebar .record-btn {
+	width: 100%;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+.suburbSidebar h3 {
+	font-size: 1em;
+	font-weight: normal;
+}
+.suburbBody {
+	margin:0 !important;
+	width:80% !important;
+}
+h1 {
+	font-weight:normal;
+}
+hr {
+	margin:10px 0;
+}
+.suburbBody .videoImageWrap, .suburbBody .videoMetaWrap {
+	float:left;
+}
+.suburbBody li {
+	min-height: 120px;
+	background: #f3f3f3;
+	overflow: hidden;
+	margin-bottom:10px;
+}
+.suburbBody .videoMetaWrap {
+	padding:20px;
+}
+.suburbBody .videoMetaWrap h4 {
+	font-size:1.8em;
+	margin-bottom:20px;
+}
+.suburbBody .videoImageWrap {
+	width:160px;
+	height:120px;
+	background:#eee;
+}
+.recordWrap, .answerWrap {
+	max-width:640px;
+	max-height:480px;
+	background:#eee;
+	margin:10px auto;
+}
+#questionSection h1 {
+	text-align:center;
+	padding:0;
+	margin-bottom:20px;
+}
+.questionMapCanvas {
+	height:200px !important;
+}
+.questionMap {
+	padding:0 !important;
+	z-index:0 !important;
+}
+.registerForm {
+	width: 220px;
+	margin: 0 auto;
+}
+.mpSearchForm {
+	width:250px;
+	margin:20px auto;
+}
+.mpSearchForm #LocationWord {
+	width:240px;
+	height:40px;
+	text-align:center;
+	font-size:2em;
+}
+.mpSearchForm label {
+	text-align:center;
+}
+.suburbList {
+	list-style:none;
+	margin:0;
+}
+.suburbList li {
+	margin-bottom:10px;
+}
+.homeTitle {
+	
+	text-align:center;
+}
+.homeTitle h1 {
+	font-size:5em;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+.homeTitle h5 {
+	font-size:1em;
+	margin-bottom:20px;
+}
+.navbar .brand {
+	color:#000;
+	font-weight:bold;
+}
+.navbar .nav li a {
+	color:#666;
+	-moz-text-shadow:none;
+	-webkit-text-shadow:none;
+	text-shadow:none;
+}
+.navbar .nav li a:hover {
+	color:#000;
+}
+.navbar .hello-message {
+    color: #000;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+}
